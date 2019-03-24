@@ -1,0 +1,31 @@
+{
+  "name": "all-the-news-to-scrape",
+  "version": "1.0.0",
+  "description": "## SST",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rookie-22/allTheNews"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rookie-22/allTheNews"
+  },
+  "homepage": "https://github.com/rookie-22/allTheNews",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "mongoose": "^5.4.15",
+    "morgan": "^1.9.1",
+    "node": "^11.12.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {}
+}
